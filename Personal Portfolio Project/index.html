@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshika Sahu-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <!--Navbar Starts here-->
+
+    <nav id="desktop-nav">
+        <div class="logo">Vanshika Sahu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Vanshika Sahu</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!--Navbar Ends here-->
+
+    <!--Profile section start here-->
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/Pink.jpg" alt="profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Vanshika Sahu</h1>
+            <span class="section__text__p2"></span>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+                <a href="assets/Portofolio Resume.pdf" download="Vanshika's Resume">
+                    <button class="btn btn-color-2">Download Resume</button>
+                </a>
+            </div>
+            <div class="socials-container">
+                <img src="assets/linkedin.png" alt="linkedin" class="icon">
+                <img src="assets/github.png" alt="github" class="icon">
+            </div>
+        </div>
+    </section>
+
+    <!--Profile section ends here-->
+
+    <!--About section starts here-->
+    <section id="about">
+        <p class="section__text__p1">Know More About Me</p>
+        <h2 class="title">About Me</h2>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/profile pic vs.jpg" alt="about" class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Under-Gradate Student</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor of Technology</p>
+                        <p>RGPV Bhopal</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        As a dedicated undergraduate student pursuing a Bachelor of Technology (B.Tech) degree and an
+                        aspiring web developer, I bring a fusion of academic excellence and practical web development
+                        skills to the table. With a relentless passion for coding and a comprehensive understanding of
+                        web technologies, I have successfully contributed to several projects, showcasing my ability to
+                        transform concepts into dynamic and user-friendly websites. My journey as a BTech student has
+                        not only equipped me with a strong technical foundation but has also instilled a commitment to
+                        continuous learning and adaptation. Eager to contribute my skills to innovative projects, I am
+                        enthusiastic about the intersection of technology and creativity, seeking opportunities to
+                        further grow and make a meaningful impact in the world of web development.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!--About section ends here-->
+
+    <!--Experience section starts here-->
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h2 class="title">Experience</h2>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Java Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>Core Java JSE</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>Advance Java JEE</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience section ends here-->
+
+    <!--Project Section Starts here-->
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h2 class="title">Projects</h2>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="assets/project-3.png" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="project-title">Weather Forecast App</h2>
+                    <div class="btn-container">
+                        <button type="button" class="btn btn-color-1" onclick="location.href='https://github.com/vanshikasahu06/Weather-Web-App'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="assets/The caffe rosen.png" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="project-title">The Cafe Rosen</h2>
+                    <div class="btn-container">
+                        <button type="button" class="btn btn-color-1" onclick="location.href='https://github.com/vanshika-sahu/CodSoft/tree/main/Vanshika%20Landing%20project%20RosenCafe'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="assets/project 2 - calculator.png" alt="project-2" class="project-img">
+                    </div>
+                    <h2 class="project-title">JavaScript Calculator</h2>
+                    <div class="btn-container">
+                        <button type="button" class="btn btn-color-1" onclick="location.href='https://github.com/vanshika-sahu/CodSoft/tree/main/Calculator%20Project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Project Section ends here-->
+
+    <!--Contact section starts here-->
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h2 class="title">Contact Me</h2>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <div class="articles-container">
+                        <article>
+                            <img src="assets/email.png" alt="email" class="icon">
+                            <p class="section__text__p1" >
+                                <a href="mailto:vanshikasahu662003@gmail.com" target="_blank">vanshikasahu662003@gmail.com</a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/linkedin.png" alt="linkedin" class="icon">
+                            <p class="section__text__p1">
+                                <a href="https://www.linkedin.com/in/vanshika-sahu/" target="_blank">linkedin</a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Navbar-->
+        <nav id="footer-nav">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="section__text__p3">Copyright © 2024 Vanshika Sahu. All Rights Reserved</p>
+        <!--Footer Navbar-->
+
+    </section>
+
+    <!--Contact section ends here-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.section__text__p2', {
+            strings: ["Front End Developer", "Java Developer", "C/C++ Developer"],
+            typeSpeed: 50,
+            backSpeed: 150,
+            loop: true
+        }); 
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
